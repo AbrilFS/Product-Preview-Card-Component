@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+:root{
+/*Colors*/
+
+--dark-cyan: hsl(158, 36%, 37%);
+--cream: hsl(30, 38%, 92%);
+--very-dark-blue: hsl(212, 21%, 14%);
+--dark-grayish-blue: hsl(228, 12%, 48%);
+--white: hsl(0, 0%, 100%);
+--black: #000000;
+--bluishblack: #242A31;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+.card_container{
+    background-color: var(--white);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    margin:3rem 1.5rem;
+
+    width: 28rem;
+    height: 60rem;
+    
+
+}
+
+.image_container{
+   
+    height: 23.9rem;
+    width: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    /* Imágen como fondo*/
+    background-image: url("./images/image-product-mobile.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.text_container{
+    margin: 2rem;
+}
+
+.top_content h2{
+    color: var(--dark-grayish-blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.top_content h1{
+    color: var(--very-dark-blue);
+    font-size: 2.5em;
+    font-weight: 800;
+    font-family: 'Fraunces';
+    line-height: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph p {
+    color:var(--dark-grayish-blue);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* La sección de 'total' la dividiremos en dos columnas*/
+.amount{    
+    display: grid;
+    grid-template-columns: repeat(2, 12.7rem);
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+}
+
+.actual_price p{
+    color: var(--dark-cyan);
+    font-weight: 800;
+    font-family: 'Fraunces';
+    font-size: 2.5em;
+    
+}
+
+.previous_price{
+    font-size: 1rem;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.button{
+    align-items: center;
+    background-color: var(--dark-cyan);
+    border-radius: 8px;
+    border: none;
+    height: 5rem;
+    margin-right: 1.5rem;
+    margin-top: 16px;
+    padding-left: 7rem;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+}
+
+.button_pd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.button_pd img{
+    height: 1.6rem;
+    width: 1.5rem;
+}
+
+.button_pd p{
+    font-size: 1.2em;
+    color: var(--white);
+    font-weight: 500;
+    min-width: 100px;
+}
+
+a{
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;  
+}
+
+
+/*Media Query*/
+
+@media screen and (min-width:768px){
+
+    .card_container{
+
+        grid-template-rows: 0;
+        grid-template-columns: repeat(2, 1fr);
+        width: 60rem;
+        height: 39rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-bottom: auto;
+    }
+
+    .image_container{
+   
+        height: inherit;
+        width: 30rem;
+        background-image: url("./images/image-product-desktop.jpg");
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        
+        
+    }
+
+    .text_container{
+        margin: 40px 30px;
+        max-width: 250px;
+    }
+
+    .paragraph p{
+        margin-right: 40px; 
+    }
+
+    .button {
+        width: 240px;
+        margin-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+     }
+
+}
