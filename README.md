@@ -10,7 +10,7 @@ The challenge was to build out this preview card component and get it looking as
 
 ### Screenshot
 
-![](../project_card_product/images/captura.png)
+![](./images/captura.png)
 
 
 ### Links ⛓
