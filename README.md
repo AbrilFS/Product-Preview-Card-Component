@@ -13,17 +13,17 @@ Your challenge is to build out this preview card component and get it looking as
 ![](../project_card_product/images/captura.png)
 
 
-### Links
+### Links ⛓
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 
 
-### My process
+### My process 🚀
 
 Responsive Landing Page using CSS Grid.
 
 
-## Built with
+## Built with 🔨
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -38,7 +38,7 @@ Mobile: 375px
 Desktop: 1440px
 
 
-## Author
+## Author 👩🏻‍💻
 
 - Abril Flores
 - Frontend Mentor - [@AbrilFS](https://www.frontendmentor.io/profile/AbrilFS)
