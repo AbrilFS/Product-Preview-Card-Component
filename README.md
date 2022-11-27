@@ -15,7 +15,8 @@ The challenge was to build out this preview card component and get it looking as
 
 ### Links ⛓
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Deploy: https://abrilfs.github.io/Product-Preview-Card-Component/ 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-qARpM5aSqY
 
 
 ### My process 🚀
