@@ -2,9 +2,9 @@
 
 ## Welcome! 👋
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
+This is my solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
 
-Your challenge is to build out this preview card component and get it looking as close to the design as possible. Your users should be able to: View the optimal layout depending on their device's screen size (Responsive) See hover states for interactive elements
+The challenge was to build out this preview card component and get it looking as close to the design as possible. Your users should be able to: View the optimal layout depending on their device's screen size (Responsive) See hover states for interactive elements
 
 
 
